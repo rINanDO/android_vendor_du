@@ -1,0 +1,14 @@
+cat << CTAG
+
+{
+    sections: [
+		`. /system/Synapse/synapse/config.json.generate.cpu`,
+		`. /system/Synapse/synapse/config.json.generate.gpu`,
+		`. /system/Synapse/synapse/config.json.generate.screen`,
+		`. /system/Synapse/synapse/config.json.generate.sound`,
+		`. /system/Synapse/synapse/config.json.generate.bln`,
+		`. /system/Synapse/synapse/config.json.generate.memory`,
+		`. /system/Synapse/synapse/config.json.generate.misc`,
+    ]
+}
+CTAG

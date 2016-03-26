@@ -91,6 +91,9 @@ include vendor/du/config/themes_common.mk
 # Packages
 include vendor/du/config/packages.mk
 
+# Synapse
+include vendor/du/config/common_synapse.mk
+
 PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/common
 
 # Boot Animation

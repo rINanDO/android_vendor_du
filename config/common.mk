@@ -61,6 +61,18 @@ PRODUCT_COPY_FILES += \
 PRODUCT_BOOT_JARS += \
     org.dirtyunicorns.utils
 
+# Stagefright FFMPEG plugin
+ifneq ($(BOARD_USES_QCOM_HARDWARE),true)
+PRODUCT_PACKAGES += \
+    libffmpeg_extractor \
+    libffmpeg_omx \
+    media_codecs_ffmpeg.xml
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    media.sf.omx-plugin=libffmpeg_omx.so \
+    media.sf.extractor-plugin=libffmpeg_extractor.so
+endif
+
 # Theme engine
 include vendor/du/config/themes_common.mk
 

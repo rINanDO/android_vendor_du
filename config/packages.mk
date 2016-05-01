@@ -28,7 +28,10 @@ PRODUCT_PACKAGES += \
     tune2fs \
     mount.exfat \
     fsck.exfat \
-    mkfs.exfat
+    mkfs.exfat \
+    mkfs.ntfs \
+    mount.ntfs \
+    fsck.ntfs
 
 # Stagefright FFMPEG plugin
 ifeq ($(BOARD_USES_QCOM_HARDWARE),true)

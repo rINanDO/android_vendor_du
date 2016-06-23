@@ -37,8 +37,19 @@ on property:service.adb.tcp.port=-1
     stop adbd
     start adbd
 
+on property:dev.bootcomplete=1
+    start synapse
+
 # sysinit (/system/etc/init.d)
 service sysinit /system/bin/sysinit
     user root
+    oneshot
+    disabled
+
+# synapse (/system/bin/synapse)
+service synapse /system/bin/sh /system/bin/synapse
+    class late_start
+    user root
+    group root
     oneshot
     disabled

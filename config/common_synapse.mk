@@ -2,8 +2,7 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/du/prebuilt/common/Synapse/uci:system/xbin/uci \
-	vendor/du/prebuilt/common/Synapse/init.d/init-synapse:system/etc/init.d/init-synapse \
-	vendor/du/prebuilt/common/Synapse/init.d/synapse:system/etc/init.d/synapse \
+	vendor/du/prebuilt/common/Synapse/bin/synapse:system/bin/synapse \
 	vendor/du/prebuilt/common/Synapse/msaa:system/Synapse//msaa \
 	vendor/du/prebuilt/common/Synapse/systemcat:system/Synapse//systemcat \
 	vendor/du/prebuilt/common/Synapse/systemstatus:system/Synapse//systemstatus \

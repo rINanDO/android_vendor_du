@@ -7,7 +7,6 @@ cat << CTAG
 		`. /system/Synapse/synapse/config.json.generate.screen`,
 		`. /system/Synapse/synapse/config.json.generate.sound`,
 		`. /system/Synapse/synapse/config.json.generate.bln`,
-		`. /system/Synapse/synapse/config.json.generate.memory`,
 		`. /system/Synapse/synapse/config.json.generate.misc`,
     ]
 }

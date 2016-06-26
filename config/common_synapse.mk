@@ -10,7 +10,6 @@ PRODUCT_COPY_FILES += \
 	vendor/du/prebuilt/common/Synapse/synapse/config.json.generate.bln:system/Synapse//synapse/config.json.generate.bln \
 	vendor/du/prebuilt/common/Synapse/synapse/config.json.generate.cpu:system/Synapse//synapse/config.json.generate.cpu \
 	vendor/du/prebuilt/common/Synapse/synapse/config.json.generate.gpu:system/Synapse//synapse/config.json.generate.gpu \
-	vendor/du/prebuilt/common/Synapse/synapse/config.json.generate.memory:system/Synapse//synapse/config.json.generate.memory \
 	vendor/du/prebuilt/common/Synapse/synapse/config.json.generate.misc:system/Synapse//synapse/config.json.generate.misc \
 	vendor/du/prebuilt/common/Synapse/synapse/config.json.generate.screen:system/Synapse//synapse/config.json.generate.screen \
 	vendor/du/prebuilt/common/Synapse/synapse/config.json.generate.sound:system/Synapse//synapse/config.json.generate.sound \
@@ -24,5 +23,4 @@ PRODUCT_COPY_FILES += \
 	vendor/du/prebuilt/common/Synapse/synapse/actions/option:system/Synapse//synapse/actions/option \
 	vendor/du/prebuilt/common/Synapse/synapse/actions/reset-fuelgauge:system/Synapse//synapse/actions/reset-fuelgauge \
 	vendor/du/prebuilt/common/Synapse/synapse/actions/speaker:system/Synapse//synapse/actions/speaker \
-	vendor/du/prebuilt/common/Synapse/synapse/actions/zram:system/Synapse//synapse/actions/zram \
 	vendor/du/prebuilt/common/Synapse/synapse.apk:system/app/Synapse/synapse.apk

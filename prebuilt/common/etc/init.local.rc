@@ -48,7 +48,6 @@ service sysinit /system/bin/sysinit
 
 # synapse (/system/bin/synapse)
 service synapse /system/bin/sh /system/bin/synapse
-    class late_start
     user root
     group root
     oneshot
